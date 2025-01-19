@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>THIS IS NODESJ TODO APPLICATION </title>
+        <title>THIS IS NODESJ TODO APPLICATION</title>
         <style>
             body {
                 font-family: Arial, sans-serif;
@@ -17,6 +17,17 @@
                 margin: 0;
                 padding: 20px;
                 text-align: center;
+            }
+
+            .love-message {
+                background-color: #FFD700;
+                color: #FF0000;
+                text-align: center;
+                padding: 20px;
+                font-size: 24px;
+                font-weight: bold;
+                margin: 20px 0;
+                border-radius: 10px;
             }
 
             ul {
@@ -90,6 +101,12 @@
 
     <body>
         <h1>Successfully Deployed Nodejs-Todo Application</h1>
+        
+        <!-- Love Message -->
+        <div class="love-message">
+            I love you bayko ❤️😘
+        </div>
+        
         <ul>
             <% todolist.forEach(function(todo, index) { %>
             <li>
